@@ -16,7 +16,7 @@ try:
     with open('bank_data.csv', 'r') as csv_file:
         reader = csv.reader(csv_file)
         for row in reader:
-            # Reset valid record and error message for each iteration
+            ## Reset valid record and error message for each iteration
             valid_record = True
             error_message = ''
 
